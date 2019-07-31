@@ -35,13 +35,15 @@ function displayGifs(){
 		$.ajax({
             url: queryURL, 
             method: "GET"
-        }).done(function (response) {
+        }).then(function (response) {
            
 			// setting results variable
 			var results = response.data;
-			// for loop for gif variables
+            // for loop for gif variables
+            
+            
 			for (var i = 0; i < results.length; i++) {
-			
+                var p = $("<p>").text("Rating: " + results[i].rating);
 				var gifDiv = $('<div class=gifBox>');
 				var foodGif = $('<img>');
 					foodGif.attr('src', results[i].images.fixed_height_still.url);
@@ -53,11 +55,11 @@ function displayGifs(){
 					foodGif.attr('data-animate', results[i].images.fixed_height.url);
 			
 				gifDiv.append(foodGif)
-		
+                gifDiv.append(p)
 
 				$("#gifSection").prepend(gifDiv);
 			}
-			 // log results to console 
+			 // testing gify functionaltiy
              console.log(response.data);
 		});
 }

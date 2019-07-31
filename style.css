@@ -1,0 +1,58 @@
+body {
+    color: rgb(255, 255, 255);
+    background-image: url("images/pp\,550x550.u1.jpg");
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+h1 {
+    background: rgba(236, 95, 0, 0.7); 
+    width: 33%;
+    margin-left: 33.5%;
+
+
+}
+
+
+h2{
+    width: 93%;
+    margin-left: 3.5%;
+    background: rgba(236, 95, 0, 0.7); 
+}
+
+.food{
+
+    background-color: orange;
+    color: red;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+}
+#addFood{
+
+
+    background-color: orange;
+    color: red;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+}
+
+#foodInput{
+
+    border: 6px solid orange;
+}
+
+label{
+    background: rgba(236, 95, 0, 0.7); 
+
+
+}
