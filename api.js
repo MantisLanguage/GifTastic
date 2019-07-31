@@ -1,5 +1,5 @@
 // array for foods/buttons
-var foods = ["Pizza", "Steak", "Ice Cream", "Cheeseburger", "Tacos", "Sushi", "Bacon", "Gyros", "Chicken", "Cheese"];
+var foods = ["Pizza", "Steak", "Ice Cream", "Cheeseburger", "Tacos", "Sushi", "Bacon", "Gyros", "Chicken", "Cheese", "Doughnuts"];
 
 function makeButtons(){ 
 	// repeat blocker
